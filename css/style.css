@@ -5,69 +5,77 @@
   min-height: 100%;
 }
 
-.header {
+.header {}
 
-}
 .main {
   flex: 1 1 auto;
 }
-.footer {
-}
+
+.footer {}
+
 [class*="__container"] {
   max-width: 1230px;
   margin: 0 auto;
   padding: 0 15px;
 }
+
 /*============================================================*/
 
 
 .button-blue {
-background: #3B3A63;
-border-radius: 3px;
+  background: #3B3A63;
+  border-radius: 3px;
 }
+
 .button-orange {
   background: #EF7F04;
-border-radius: 3px;
+  border-radius: 3px;
 }
 
 /*============================================================*/
 
-.wrapper {
-}
+.wrapper {}
+
 .header {
   height: 98px;
 }
+
 .header__container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 17px 0px 17px 0px;
 }
-.header__logo {
-}
-.logo__link {
-}
-.menu__body {
-}
+
+.header__logo {}
+
+.logo__link {}
+
+.menu__body {}
+
 .menu__list {
   display: flex;
 }
+
 .menu__item {
   padding-right: 22px;
 }
-.menu__item:last-child{
+
+.menu__item:last-child {
   padding-right: 0px;
 }
+
 .menu__link {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   color: #000000;
   font-family: 'Roboto';
-  transition: all .4s ease-in ;
+  transition: all .4s ease-in;
 }
-.menu__link:hover{
-  transition: all .4s ease-in ;
+
+.menu__link:hover {
+  transition: all .4s ease-in;
   color: #EF7F04;
   font-size: 20px;
 }
@@ -81,25 +89,81 @@ border-radius: 3px;
   justify-content: center;
 }
 
-.header__buttons img{
-padding: 0px 14px;
+.header__buttons img {
+  padding: 0px 14px;
 }
 
 .button {
-
   display: flex;
   padding: 12px 19px 12px 0px;
   align-items: center;
   text-align: center;
-
   font-family: 'Roboto';
   font-size: 13px;
   line-height: 15px;
   color: #FFFFFF;
   font-weight: 700;
-
 }
 
 
 /*============================================================*/
+/*================Section windows haus========================*/
 
+.section-windows-haus {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 1920px;
+  height: 562px;
+  background-image: linear-gradient(#3a3531, #2e43a0), url(../img/main/section1/image\ 2.png), url(../img/main/section1/image\ 3.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right center, left center;
+  background-blend-mode: multiply;
+}
+
+.windows-haus__advantages {}
+
+.windows-haus__title {
+  font-family: 'Roboto';
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #FFFFFF;
+  position: absolute;
+  top: -71px;
+  left: 0px;
+  padding-bottom: 18px;
+}
+
+.windows-haus__title span {
+  color: #EF7F04;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.windows-haus__box {
+  position: absolute;
+  bottom: 200px;
+  left: 400px;
+  display: flex;
+
+}
+
+.windows-haus__body {
+  padding-right: 20px;
+  align-items: center;
+}
+
+.windows-haus__icon {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.windows-haus__text {
+  display: inline-block;
+  color: #FFFFFF;
+}
+
+/*============================================================*/
