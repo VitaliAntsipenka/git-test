@@ -1,0 +1,51 @@
+@media (max-width:1274.99px) {
+  .menu__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+}
+
+@media (max-width:1273.99px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .input {
+    width: 500px;
+  }
+
+  .btn {
+    width: 500px;
+  }
+}
+
+@media (max-width:1200px) {}
+
+@media (max-width:991.98px) {}
+
+@media (max-width:767.98px) {}
+
+@media (max-width:745.99px) {
+  .header-phone {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+  }
+
+}
+
+@media (max-width: 683.99px) {
+  input {
+    width: 485px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 479.98px) {}
